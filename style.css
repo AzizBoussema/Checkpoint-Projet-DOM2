@@ -1,0 +1,35 @@
+/* test */
+body{
+margin: 0;
+padding: 0;
+max-height: 100vh;
+}
+/* Stylez la classe de conteneur pour centrer son contenu horizontalement et lui donner une marge supérieure pour l'espacement. */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20%;
+}
+
+/* Stylez l'identifiant color-box avec une largeur et une hauteur fixes, et définissez une couleur d'arrière-plan par défaut. */
+#color-box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet ;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+/* Stylez l'identifiant change-color-btn pour le rendre visuellement attrayant et facilement cliquable. */
+#change-color-btn{
+    margin: 5%;
+    padding: 10px;
+    border: 2px solid rgb(8, 7, 7);
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 rgba(128, 128, 128, 0.444);
+    color: blueviolet;
+    cursor: pointer;
+    font-size: 20px;
+}
